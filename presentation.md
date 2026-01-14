@@ -7,13 +7,11 @@ use TODO to verify that the delete confirmation from my books works as expected.
 ## Tools
 
 - Chrome dev tools MCP
+- Playwright MCP
 - Playwrite dev tools MCP
 - Claude Browser Extension
 - dev-browser (Skill or MCP)
-
-## New window vs Existing window
-
-- Do you have a complex login process (login via Email)
+- playwright-skill (Skill)
 
 ## Speed
 
@@ -21,6 +19,14 @@ use TODO to verify that the delete confirmation from my books works as expected.
 
 - Cursor (API)
 - Claude Code (Plan is slower than API?)
+
+## New window vs Existing window
+
+- Do you have a complex login process (login via Email)
+
+- chrome dev tools mcp: yes?
+- Playwright MCP
+  - Playwright MCP Chrome Extension https://github.com/microsoft/playwright-mcp/blob/main/extension/README.md
 
 ### Tests
 

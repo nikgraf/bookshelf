@@ -16,7 +16,11 @@
 - Cursor (API)
 - Claude Code (Plan)
 
-## Future
+## Error Tracking
+
+-> Reproduce the error
+
+## Future?
 
 - Record a video
 - Write e2e tests (how to manage a lot of them, when to run them? sprites.dev with isolated envs?)

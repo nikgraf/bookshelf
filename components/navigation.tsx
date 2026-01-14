@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Search, BookOpen } from "lucide-react"
-import { cn } from "@/lib/utils"
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Search, BookOpen } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export function Navigation() {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   return (
     <nav className="border-b border-border bg-card">
@@ -22,7 +22,7 @@ export function Navigation() {
                 "flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors",
                 pathname === "/"
                   ? "bg-primary text-primary-foreground"
-                  : "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+                  : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
               )}
             >
               <Search className="h-4 w-4" />
@@ -34,7 +34,7 @@ export function Navigation() {
                 "flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors",
                 pathname === "/my-books"
                   ? "bg-primary text-primary-foreground"
-                  : "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+                  : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
               )}
             >
               <BookOpen className="h-4 w-4" />
@@ -44,5 +44,5 @@ export function Navigation() {
         </div>
       </div>
     </nav>
-  )
+  );
 }

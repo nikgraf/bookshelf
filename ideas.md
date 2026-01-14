@@ -1,3 +1,4 @@
 - Search German books
 - Confirmation when removing a book
 - Don't wipe the search when switching tabs
+- Dark mode

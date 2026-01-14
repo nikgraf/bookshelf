@@ -1,3 +1,9 @@
+## Explain App
+
+## Prompt
+
+use TODO to verify that the delete confirmation from my books works as expected. the server runs on http://localhost:3000/
+
 ## Tools
 
 - Chrome dev tools MCP

@@ -20,7 +20,17 @@ use TODO to verify that the delete confirmation from my books works as expected.
 ### Model and Harness
 
 - Cursor (API)
-- Claude Code (Plan)
+- Claude Code (Plan is slower than API?)
+
+### Tests
+
+- Cursor (Browser)
+  - Composer 1: 29sec / 28sec
+  - Opus 4.5: 56sec / 1:20sec
+  - GPT-5.2 1:20sec
+
+- Cursor (chrome dev tools mcp)
+  - Composer 1: 32sec
 
 ## Error Tracking
 
@@ -29,4 +39,5 @@ use TODO to verify that the delete confirmation from my books works as expected.
 ## Future?
 
 - Record a video
-- Write e2e tests (how to manage a lot of them, when to run them? sprites.dev with isolated envs?)
+- Write e2e tests (how to manage a lot of them, when to run them? )
+  - Isolated envs with sprites.dev to run in parallel (also relevant for parallel feature development)

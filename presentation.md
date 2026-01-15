@@ -8,7 +8,7 @@ use TODO to verify that the delete confirmation from my books works as expected.
 
 - Chrome dev tools MCP
 - Playwright MCP
-- Playwrite dev tools MCP
+- Playwriter MCP
 - Claude Browser Extension
 - dev-browser (Skill or MCP)
 - playwright-skill (Skill)
@@ -24,7 +24,7 @@ use TODO to verify that the delete confirmation from my books works as expected.
 
 - Do you have a complex login process (login via Email)
 
-- chrome dev tools mcp: yes?
+- chrome dev tools mcp: yes
 - Playwright MCP
   - Playwright MCP Chrome Extension https://github.com/microsoft/playwright-mcp/blob/main/extension/README.md
 

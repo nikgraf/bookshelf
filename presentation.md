@@ -12,6 +12,7 @@ use TODO to verify that the delete confirmation from my books works as expected.
 - Claude Browser Extension
 - dev-browser (Skill or MCP)
 - playwright-skill (Skill)
+- https://github.com/vercel-labs/agent-browser
 
 ## Speed
 

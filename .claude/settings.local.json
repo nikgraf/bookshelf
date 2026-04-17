@@ -13,7 +13,8 @@
       "mcp__chrome-devtools__click",
       "mcp__chrome-devtools__wait_for",
       "mcp__chrome-devtools__new_page",
-      "Skill(dev-browser)"
+      "Skill(dev-browser)",
+      "mcp__chrome-devtools__take_screenshot"
     ]
   }
 }

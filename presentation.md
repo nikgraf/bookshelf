@@ -29,6 +29,26 @@ use TODO to verify that the delete confirmation from my books works as expected.
 - Playwright MCP
   - Playwright MCP Chrome Extension https://github.com/microsoft/playwright-mcp/blob/main/extension/README.md
 
+### Chrome AutoConnect
+
+```json
+{
+  "chrome-devtools": {
+    "command": "npx",
+    "env": {},
+    "args": [
+      "-y",
+      "chrome-devtools-mcp@latest",
+      "--no-usage-statistics",
+      "--autoConnect",
+      "--channel=canary"
+    ]
+  }
+}
+```
+
+Link for Canary setup: https://github.com/ChromeDevTools/chrome-devtools-mcp?tab=readme-ov-file#automatically-connecting-to-a-running-chrome-instance
+
 ### Tests
 
 - Cursor (Browser)
